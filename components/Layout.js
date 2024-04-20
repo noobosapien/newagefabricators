@@ -10,7 +10,7 @@ export default function Layout({ active, children }) {
 
   return (
     <>
-      <div className={`scroll-smooth`}>
+      <div className="scroll-smooth">
         <nav className="relative container flex flex-col justify-center">
           <div className="flex items-center justify-between p-6 mx-auto w-screen">
             <Link href="/">
@@ -140,7 +140,14 @@ export default function Layout({ active, children }) {
             </div>
           </div>
         </nav>
+
         {children}
+
+        <footer className="relative mt-24 w-screen h-96 bg-mainBlue footer">
+          <span className="absolute p-4 rounded-2xl text-white hover:bg-mainBlue bg-secondaryBlue email-us">
+            Email Us
+          </span>
+        </footer>
       </div>
     </>
   );

@@ -48,3 +48,43 @@
 .open .hamburger-bottom{
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
+
+
+.info-image {
+    &::before{
+        content: "";
+        width: 110%;
+        height: 110%;
+        background: #1b3e82;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+    }
+
+    &::after{
+        content: "";
+        width: 50%;
+        height: 50%;
+        background: #2452ae;
+        position: absolute;
+        top: -20%;
+        left: -30%;
+        z-index: -1;
+    }
+}
+
+.footer{
+    &::before{
+        content: "";
+        width: 100%;
+        height: 5%;
+        background: #2452ae;
+        position: absolute;
+        top: -5%;
+    }
+}
+
+.email-us{
+    left: calc(48%);
+    top: -10%;
+}
