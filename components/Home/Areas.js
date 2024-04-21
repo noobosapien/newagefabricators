@@ -17,7 +17,7 @@ export default function Areas() {
             </div>
 
             <p className="md:w-1/3 md:text-left text-center text-xl">
-              <span className="font-bold text-center text-4xl">
+              <span className="font-semibold text-center text-2xl">
                 Our Location
               </span>
               <br />

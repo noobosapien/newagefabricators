@@ -55,7 +55,7 @@ export default function Layout({ active, children }) {
               <Link
                 href="/process"
                 className={`text-center ${
-                  active == "process" ? "text-slate-600" : ""
+                  active == "process" ? "font-light" : ""
                 }`}
               >
                 <span className="hidden md:flex">Process</span>
@@ -64,7 +64,7 @@ export default function Layout({ active, children }) {
               <Link
                 href="/work"
                 className={`text-center ${
-                  active == "work" ? "text-slate-600" : ""
+                  active == "work" ? "font-light" : ""
                 }`}
               >
                 <span className="hidden md:flex">Work</span>
@@ -73,7 +73,7 @@ export default function Layout({ active, children }) {
               <Link
                 href="/about"
                 className={`text-center ${
-                  active == "about" ? "text-slate-600" : ""
+                  active == "about" ? "font-light" : ""
                 }`}
               >
                 <span className="hidden md:flex">About</span>
@@ -81,7 +81,7 @@ export default function Layout({ active, children }) {
               <Link
                 href="/contact"
                 className={`text-center ${
-                  active == "contact" ? "text-slate-600" : ""
+                  active == "contact" ? "font-light" : ""
                 }`}
               >
                 <span className="hidden md:flex">Contact</span>
@@ -107,49 +107,49 @@ export default function Layout({ active, children }) {
           <div
             className={`absolute ${
               menuOpen ? "flex" : "hidden"
-            } md:hidden p-6 rounded-lg bg-secondaryBlue left-6 right-6 top-32 z-10`}
+            } md:hidden p-6 bg-secondaryBlue left-6 right-6 top-32 z-10`}
           >
             <div className="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
               <Link
                 href="/services"
                 className={`w-full text-center ${
-                  active == "services" ? "text-slate-600" : ""
+                  active == "services" ? "font-light" : ""
                 }`}
               >
                 Services
               </Link>
 
               <Link
-                href="/services"
+                href="/process"
                 className={`w-full text-center ${
-                  active == "services" ? "text-slate-600" : ""
+                  active == "process" ? "font-light" : ""
                 }`}
               >
                 Process
               </Link>
 
               <Link
-                href="/services"
+                href="/work"
                 className={`w-full text-center ${
-                  active == "services" ? "text-slate-600" : ""
+                  active == "work" ? "font-light" : ""
                 }`}
               >
                 Work
               </Link>
 
               <Link
-                href="/services"
+                href="/about"
                 className={`w-full text-center ${
-                  active == "services" ? "text-slate-600" : ""
+                  active == "about" ? "font-light" : ""
                 }`}
               >
                 About
               </Link>
 
               <Link
-                href="/services"
+                href="/contact"
                 className={`w-full text-center ${
-                  active == "services" ? "text-slate-600" : ""
+                  active == "contact" ? "font-light" : ""
                 }`}
               >
                 Contact
@@ -166,15 +166,29 @@ export default function Layout({ active, children }) {
 
             <div className="flex flex-col justify-center items-center text-white space-y-10">
               <div className="flex justify-evenly space-x-10">
-                <span>Home</span>
-                <span>Services</span>
-                <span>Process</span>
-                <span>Work</span>
+                <Link href="/">
+                  <span>Home</span>
+                </Link>
+
+                <Link href="/services">
+                  <span>Services</span>
+                </Link>
+                <Link href="/process">
+                  <span>Process</span>
+                </Link>
+                <Link href="/work">
+                  <span>Work</span>
+                </Link>
               </div>
 
               <div className="flex justify-evenly space-x-10">
-                <span>About</span>
-                <span>Contact</span>
+                <Link href="/about">
+                  <span>About</span>
+                </Link>
+
+                <Link href="/contact">
+                  <span>Contact</span>
+                </Link>
               </div>
             </div>
 
