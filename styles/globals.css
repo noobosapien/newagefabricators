@@ -51,15 +51,7 @@
 
 
 .info-image {
-    &::before{
-        content: "";
-        width: 110%;
-        height: 110%;
-        background: #1b3e82;
-        position: absolute;
-        top: -5%;
-        left: -5%;
-    }
+    border-width: 14px;
 
     &::after{
         content: "";

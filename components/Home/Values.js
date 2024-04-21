@@ -10,7 +10,7 @@ export default function Values() {
       <div className="relative mt-64 md:mt-0 flex justify-center">
         <div className="absolute left-[0px] w-10 h-20 lg:w-48 lg:h-48 bg-mainBlue z-10"></div>
 
-        <div className="h-full max-w-[1200px] flex flex-col items-center justify-center md:justify-around space-y-32 md:space-y-32">
+        <div className="h-full max-w-[1200px] flex flex-col items-center justify-center md:justify-around space-y-32 md:space-y-48">
           <h2 className="text-4xl text-center font-bold">Our Values</h2>
 
           <div className="flex flex-col space-y-10 md:space-y-0 md:flex-row items-center justify-center md:justify-around md:space-x-10 px-4">

@@ -21,7 +21,7 @@ export default function Testimonials() {
       <div className="relative flex justify-center mt-64">
         <div className="absolute left-[0px] w-10 h-20 lg:w-48 lg:h-48 bg-mainBlue z-10"></div>
 
-        <div className="h-full max-w-[1200px] flex flex-col space-y-32 md:space-y-32 items-center justify-around">
+        <div className="h-full max-w-[1200px] flex flex-col space-y-32 md:space-y-48 items-center justify-around">
           <h2 className="text-4xl text-center font-bold">
             Some Client Testimonials
           </h2>
