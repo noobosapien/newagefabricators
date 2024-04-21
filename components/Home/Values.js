@@ -7,15 +7,15 @@ import Image from "next/image";
 export default function Values() {
   return (
     <>
-      <div className="relative h-[80vh] flex justify-center">
-        <div className="absolute left-[0px] w-48 h-48 bg-mainBlue z-10"></div>
+      <div className="relative mt-64 md:mt-0 flex justify-center">
+        <div className="absolute left-[0px] w-10 h-20 lg:w-48 lg:h-48 bg-mainBlue z-10"></div>
 
-        <div className="h-full max-w-[1200px] flex flex-col items-center justify-around">
-          <h2 className="text-4xl font-bold">Our Values</h2>
+        <div className="h-full max-w-[1200px] flex flex-col items-center justify-center md:justify-around space-y-32 md:space-y-32">
+          <h2 className="text-4xl text-center font-bold">Our Values</h2>
 
-          <div className="flex items-center justify-around space-x-10">
+          <div className="flex flex-col space-y-10 md:space-y-0 md:flex-row items-center justify-center md:justify-around md:space-x-10 px-4">
             <div className="flex flex-col items-center space-y-5">
-              <div className="relative w-40 h-40">
+              <div className="relative w-24 h-24 md:w-40 md:h-40">
                 <Image src={Quality} fill />
               </div>
 
@@ -33,7 +33,7 @@ export default function Values() {
             </div>
 
             <div className="flex flex-col items-center space-y-5">
-              <div className="relative w-40 h-40">
+              <div className="relative w-24 h-24 md:w-40 md:h-40">
                 <Image src={Expertise} fill />
               </div>
 
@@ -51,7 +51,7 @@ export default function Values() {
             </div>
 
             <div className="flex flex-col items-center space-y-5">
-              <div className="relative w-40 h-40">
+              <div className="relative w-24 h-24 md:w-40 md:h-40">
                 <Image src={CostSave} fill />
               </div>
 

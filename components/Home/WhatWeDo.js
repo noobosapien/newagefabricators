@@ -25,13 +25,13 @@ export default function WhatWeDo() {
 
   return (
     <>
-      <div className="relative h-[100vh] flex justify-center">
-        <div className="absolute right-[0px] w-48 h-48 bg-mainBlue z-10"></div>
+      <div className="relative flex justify-center mt-64">
+        <div className="absolute right-[0px] w-10 h-20 lg:w-48 lg:h-48 bg-mainBlue z-10"></div>
 
-        <div className="h-full max-w-[1200px] flex flex-col items-center justify-around">
-          <h2 className="text-4xl font-bold">What We Do</h2>
+        <div className="h-full max-w-[1200px] flex flex-col space-y-32 md:space-y-32 items-center justify-around">
+          <h2 className="text-4xl text-center font-bold">What We Do</h2>
 
-          <div className="flex items-center justify-around space-x-10">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-around md:space-x-10 space-y-10 md:space-y-0">
             {industries.map((industry, i) => (
               <IndustryCard
                 key={`industry_${i}`}

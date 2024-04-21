@@ -6,11 +6,9 @@ import NewAgeFabricators from "./NewAgeFabricators";
 export default function Hero() {
   return (
     <>
-      {/* <BurningWelder /> */}
       <div className="relative">
         <Welder />
-
-        <NewAgeFabricators />
+        {/* <NewAgeFabricators /> */}
       </div>
     </>
   );

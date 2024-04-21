@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function TestimonialCard({ name, stars, review }) {
   return (
     <>
-      <div className="flex flex-col p-6 space-y-2 border-2 h-80 w-full">
+      <div className="flex flex-col p-6 space-y-2 border-2 h-100 md:h-80 w-full">
         <div className="relative h-8 w-8">
           <Image src={Google} fill />
         </div>
