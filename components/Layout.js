@@ -24,60 +24,58 @@ export default function Layout({ active, children }) {
                   <Image src={Logo} fill />
                 </div>
               </Link>
-
-              {/* <div className="flex items-center justify-end space-x-4">
-                <div className="relative w-8 h-8">
-                  <Image src={WA} fill />
-                </div>
-
-                <div className="relative w-8 h-8">
-                  <Image src={FB} fill />
-                </div>
-
-                <div className="relative w-8 h-8">
-                  <Image src={IG} fill />
-                </div>
-              </div> */}
             </div>
           </div>
 
           <div className="flex w-screen h-10 bg-mainBlue font-bold text-white justify-center items-center">
             <div className="hidden md:flex items-center space-x-10 w-full max-w-[1200px]">
               <Link
-                href="/services"
+                href="/boat_repairs"
                 className={`text-center ${
-                  active == "services" ? "font-light" : ""
+                  active == "boat_repairs" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Services</span>{" "}
+                <span className="hidden md:flex">Boat repairs</span>{" "}
               </Link>
 
               <Link
-                href="/process"
+                href="/truck"
                 className={`text-center ${
-                  active == "process" ? "font-light" : ""
+                  active == "truck" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Process</span>
+                <span className="hidden md:flex">Truck decks & toolboxes</span>
               </Link>
 
               <Link
-                href="/work"
+                href="/balustrades_rails"
                 className={`text-center ${
-                  active == "work" ? "font-light" : ""
+                  active == "balustrades_rails" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Work</span>
+                <span className="hidden md:flex">Balustrades & Rails</span>
               </Link>
 
-              {/* <Link
-                href="/about"
+              <Link
+                href="/gates_pregolas"
                 className={`text-center ${
-                  active == "about" ? "font-light" : ""
+                  active == "gates_pregolas" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">About</span>
-              </Link> */}
+                <span className="hidden md:flex">Gates & Pregolas</span>
+              </Link>
+
+              <Link
+                href="/beams_portals"
+                className={`text-center ${
+                  active == "beams_portals" ? "font-light" : ""
+                }`}
+              >
+                <span className="hidden md:flex">
+                  Structural house beams & portals
+                </span>
+              </Link>
+
               <Link
                 href="/contact"
                 className={`text-center ${
@@ -111,40 +109,49 @@ export default function Layout({ active, children }) {
           >
             <div className="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
               <Link
-                href="/services"
+                href="/boat_repairs"
                 className={`w-full text-center ${
-                  active == "services" ? "font-light" : ""
+                  active == "boat_repairs" ? "font-light" : ""
                 }`}
               >
-                Services
+                Boat Repairs
               </Link>
 
               <Link
-                href="/process"
+                href="/truck"
                 className={`w-full text-center ${
-                  active == "process" ? "font-light" : ""
+                  active == "truck" ? "font-light" : ""
                 }`}
               >
-                Process
+                Truck decks & toolboxes
               </Link>
 
               <Link
-                href="/work"
+                href="/balustrades_rails"
                 className={`w-full text-center ${
-                  active == "work" ? "font-light" : ""
+                  active == "balustrades_rails" ? "font-light" : ""
                 }`}
               >
-                Work
+                Balustrades & Rails
               </Link>
 
-              {/* <Link
-                href="/about"
+              <Link
+                href="/gates_pregolas"
                 className={`w-full text-center ${
-                  active == "about" ? "font-light" : ""
+                  active == "gates_pregolas" ? "font-light" : ""
                 }`}
               >
-                About
-              </Link> */}
+                Custom Gates & Pregolas
+              </Link>
+
+              <Link
+                href="/beams_portals"
+                className={`w-full text-center ${
+                  active == "beams_portals" ? "font-light" : ""
+                }`}
+              >
+                Structural house beams & portals
+              </Link>
 
               <Link
                 href="/contact"
@@ -165,26 +172,30 @@ export default function Layout({ active, children }) {
             <p className="text-white text-2xl font-bold">New Age Fabricators</p>
 
             <div className="flex flex-col justify-center items-center text-white space-y-10">
-              <div className="flex justify-evenly space-x-10">
+              <div className="flex gap-y-4 lg:gap-y-0 flex-col lg:flex-row flex-wrap justify-evenly space-x-10">
                 <Link href="/">
                   <span>Home</span>
                 </Link>
 
-                <Link href="/services">
-                  <span>Services</span>
+                <Link href="/boat_repairs">
+                  <span>Boat Repairs</span>
                 </Link>
-                <Link href="/process">
-                  <span>Process</span>
+                <Link href="/truck">
+                  <span>Truck decks & toolboxes</span>
                 </Link>
-                <Link href="/work">
-                  <span>Work</span>
+                <Link href="/balustrades_rails">
+                  <span>Balustrades & Rails</span>
                 </Link>
               </div>
 
-              <div className="flex justify-evenly space-x-10">
-                {/* <Link href="/about">
-                  <span>About</span>
-                </Link> */}
+              <div className="flex flex-col gap-y-4 lg:gap-y-0 lg:flex-row lg:justify-evenly space-x-10">
+                <Link href="/gates_pregolas">
+                  <span>Custom gates & pregolas</span>
+                </Link>
+
+                <Link href="/beams_portals">
+                  <span>House beams & portals</span>
+                </Link>
 
                 <Link href="/contact">
                   <span>Contact</span>

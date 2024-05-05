@@ -1,38 +1,34 @@
 import Image from "next/image";
 import React from "react";
-import Boat from "@/public/4.jpg";
 
-export default function ServiceCard() {
+export default function ServiceCard({ image, name, desc1, desc2 }) {
   return (
     <>
       <div className="flex items-center justify-center w-full mt-40">
-        <div className="flex flex-col w-full max-w-[1200px] gap-y-16">
-          <h2 className="font-semibold text-2xl">
-            Boat repairs and Modification
-          </h2>
-          <div className="flex justify-between w-full">
-            <div className="relative h-96 w-96">
-              <Image src={Boat} fill alt="boat" />
+        <div className="flex flex-col items-center lg:items-start w-full max-w-[1200px] gap-y-16">
+          <h2 className="font-semibold text-2xl">{name}</h2>
+          <div className="flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center justify-between w-full">
+            <div className="relative border-mainBlue border-8 h-80 w-80 lg:h-96 lg:w-96 drop-shadow-md">
+              <Image src={image} fill alt={name} />
             </div>
 
-            <div className="w-[40%] flex flex-col gap-y-10">
+            <div className="w-[80%] lg:w-[40%] flex flex-col gap-y-10">
               <p className="text-lg">
-                This process typically begins with a thorough inspection to
-                assess the extent of damage or wear. This may involve examining
-                the hull for cracks, checking the integrity of the deck, and
-                inspecting the propulsion system.
+                {desc1}
                 <br />
                 <br />
-                Depending on the issues identified, repairs may include
-                fiberglass work to patch holes or cracks, replacing damaged or
-                worn-out components such as rigging, sails, or engines, and
-                refinishing surfaces to restore their appearance and protect
-                against corrosion.
+                {desc2}
               </p>
 
-              <span className="w-full text-center bg-mainBlue text-white font-semibold cursor-pointer py-4 hover:opacity-70">
-                View our work
-              </span>
+              <div className="flex flex-col space-y-5">
+                <span className="w-full text-center">
+                  We are based in Wellington
+                </span>
+
+                <span className="w-full drop-shadow-md text-center bg-mainBlue text-white font-semibold cursor-pointer py-4 hover:opacity-70">
+                  Contact us now
+                </span>
+              </div>
             </div>
           </div>
         </div>
