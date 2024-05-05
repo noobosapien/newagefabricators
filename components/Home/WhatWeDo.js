@@ -1,24 +1,37 @@
 import React, { useState } from "react";
 import IndustryCard from "./IndustryCard";
-import Marine from "@/public/marine.jpg";
-import General from "@/public/conveyor.jpg";
-import CNC from "@/public/cnc.jpg";
+import Marine from "@/public/2.jpg";
+import General from "@/public/6.jpg";
+import CNC from "@/public/13.jpg";
+import Gates from "@/public/18.jpg";
+import Structural from "@/public/1.jpg";
 
 export default function WhatWeDo() {
   const [industries] = useState([
     {
       image: Marine,
-      name: "Marine Engineering",
+      name: "Boat repairs and modifications",
       link: "/services",
     },
     {
       image: General,
-      name: "General Fabrication",
+      name: "Custom truck decks / Tool boxes",
       link: "/services",
     },
     {
       image: CNC,
-      name: "CNC Operation",
+      name: "Balustrades / Rails",
+      link: "/services",
+    },
+
+    {
+      image: Gates,
+      name: "Custom gates and pregolas",
+      link: "/services",
+    },
+    {
+      image: Structural,
+      name: "Structural house beams / portals",
       link: "/services",
     },
   ]);
@@ -31,7 +44,7 @@ export default function WhatWeDo() {
         <div className="h-full max-w-[1200px] flex flex-col space-y-32 md:space-y-48 items-center justify-around">
           <h2 className="text-4xl text-center font-bold">What We Do</h2>
 
-          <div className="flex flex-col md:flex-row items-center justify-center md:justify-around md:space-x-10 space-y-10 md:space-y-0">
+          <div className="flex flex-col flex-wrap md:flex-row items-center justify-center md:justify-around md:space-x-10 space-y-10 md:gap-10">
             {industries.map((industry, i) => (
               <IndustryCard
                 key={`industry_${i}`}

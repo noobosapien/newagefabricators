@@ -25,7 +25,7 @@ export default function Layout({ active, children }) {
                 </div>
               </Link>
 
-              <div className="flex items-center justify-end space-x-4">
+              {/* <div className="flex items-center justify-end space-x-4">
                 <div className="relative w-8 h-8">
                   <Image src={WA} fill />
                 </div>
@@ -37,7 +37,7 @@ export default function Layout({ active, children }) {
                 <div className="relative w-8 h-8">
                   <Image src={IG} fill />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -70,14 +70,14 @@ export default function Layout({ active, children }) {
                 <span className="hidden md:flex">Work</span>
               </Link>
 
-              <Link
+              {/* <Link
                 href="/about"
                 className={`text-center ${
                   active == "about" ? "font-light" : ""
                 }`}
               >
                 <span className="hidden md:flex">About</span>
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className={`text-center ${
@@ -137,14 +137,14 @@ export default function Layout({ active, children }) {
                 Work
               </Link>
 
-              <Link
+              {/* <Link
                 href="/about"
                 className={`w-full text-center ${
                   active == "about" ? "font-light" : ""
                 }`}
               >
                 About
-              </Link>
+              </Link> */}
 
               <Link
                 href="/contact"
@@ -182,9 +182,9 @@ export default function Layout({ active, children }) {
               </div>
 
               <div className="flex justify-evenly space-x-10">
-                <Link href="/about">
+                {/* <Link href="/about">
                   <span>About</span>
-                </Link>
+                </Link> */}
 
                 <Link href="/contact">
                   <span>Contact</span>

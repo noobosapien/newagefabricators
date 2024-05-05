@@ -12,12 +12,14 @@ export default function Info() {
           <div className="flex flex-col md:w-1/3 w-full space-y-10">
             <h1 className="font-bold text-4xl">New Age Fabricators</h1>
             <p className="text-xl text-center md:text-left p-4 md:p-0">
-              With a commitment to precision and a passion for quality
-              craftsmanship, New Age Fabricators have become synonymus with
-              reliable and cutting-edge fabricating solutions. From it's
-              inception, the company has dedicated itself to providing top-notch
-              services that cater to the diversse needs of clients across
-              various industries.
+              With many successful projects under our belt, we usually deliver
+              the highest quality results possible for our customers in the most
+              timely manner possible, ranging from truck decks to custom gates
+              and many more services.
+            </p>
+            <p className="italic text-center lg:text-left">
+              We also make sure your trucks and gates look much better than your
+              neighbor's
             </p>
           </div>
         </div>
