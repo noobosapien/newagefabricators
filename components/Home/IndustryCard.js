@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function IndustryCard({ image, name, link }) {
@@ -17,9 +18,14 @@ export default function IndustryCard({ image, name, link }) {
 
         <p className="text-center text-l font-bold">{name}</p>
 
-        <span className="w-full text-center hover:cursor-pointer hover:bg-secondaryBlue bg-mainBlue rounded-xl p-3 text-white font-semibold">
+        <Link
+          href={link}
+          className="w-full text-center hover:cursor-pointer hover:bg-secondaryBlue bg-mainBlue rounded-xl p-3 text-white font-semibold"
+        >
+          {/* <span className="w-full text-center hover:cursor-pointer hover:bg-secondaryBlue bg-mainBlue rounded-xl p-3 text-white font-semibold"> */}
           More Info
-        </span>
+          {/* </span> */}
+        </Link>
       </div>
     </>
   );

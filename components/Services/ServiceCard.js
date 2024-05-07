@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function ServiceCard({ image, name, desc1, desc2 }) {
@@ -25,9 +26,12 @@ export default function ServiceCard({ image, name, desc1, desc2 }) {
                   We are based in Wellington
                 </span>
 
-                <span className="w-full drop-shadow-md text-center bg-mainBlue text-white font-semibold cursor-pointer py-4 hover:opacity-70">
+                <Link
+                  href="/contact"
+                  className="w-full drop-shadow-md text-center bg-mainBlue text-white font-semibold cursor-pointer py-4 hover:opacity-70"
+                >
                   Contact us now
-                </span>
+                </Link>
               </div>
             </div>
           </div>

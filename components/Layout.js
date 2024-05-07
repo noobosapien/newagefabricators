@@ -167,7 +167,7 @@ export default function Layout({ active, children }) {
 
         {children}
 
-        <footer className="relative mt-24 w-screen h-96 bg-mainBlue footer">
+        <footer className="relative mt-24 w-screen py-48 bg-mainBlue footer">
           <div className="w-full h-full flex flex-col md:flex-row justify-evenly items-center space-y-10 md:space-y-0">
             <p className="text-white text-2xl font-bold">New Age Fabricators</p>
 

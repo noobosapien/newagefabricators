@@ -2,6 +2,10 @@ import Layout from "@/components/Layout";
 import ServiceCard from "@/components/Services/ServiceCard";
 import React from "react";
 import Pregola1 from "@/public/18.jpg";
+import Pregola2 from "@/public/15.jpg";
+import Pregola3 from "@/public/16.jpg";
+import Pregola4 from "@/public/17.jpg";
+import Work from "@/components/Services/Work";
 
 const info = {
   name: "Gates and pregolas fabrication",
@@ -21,6 +25,8 @@ export default function GatesPregolas() {
           desc1={info.desc1}
           desc2={info.desc2}
         />
+
+        <Work images={[Pregola2, Pregola3, Pregola4]} />
       </Layout>
     </>
   );

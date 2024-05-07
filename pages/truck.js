@@ -2,6 +2,8 @@ import Layout from "@/components/Layout";
 import ServiceCard from "@/components/Services/ServiceCard";
 import React from "react";
 import Truck1 from "@/public/6.jpg";
+import Truck2 from "@/public/5.jpg";
+import Work from "@/components/Services/Work";
 
 const info = {
   name: "Truck decks and toolboxes fabrication",
@@ -21,6 +23,7 @@ export default function TruckDecks() {
           desc1={info.desc1}
           desc2={info.desc2}
         />
+        <Work images={[Truck2]} />
       </Layout>
     </>
   );

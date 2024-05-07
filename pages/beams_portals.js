@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import ServiceCard from "@/components/Services/ServiceCard";
 import React from "react";
 import Beams1 from "@/public/1.jpg";
+import Work from "@/components/Services/Work";
 
 const info = {
   name: "Structural beams and portals",
@@ -21,6 +22,8 @@ export default function BeamsPortals() {
           desc1={info.desc1}
           desc2={info.desc2}
         />
+
+        <Work images={[Beams1]} />
       </Layout>
     </>
   );

@@ -2,6 +2,9 @@ import Layout from "@/components/Layout";
 import ServiceCard from "@/components/Services/ServiceCard";
 import React from "react";
 import Boat from "@/public/4.jpg";
+import Boat2 from "@/public/2.jpg";
+import Boat3 from "@/public/3.jpg";
+import Work from "@/components/Services/Work";
 
 const info = {
   name: "Boat repairs and modification",
@@ -21,6 +24,8 @@ export default function BoatRepairs() {
           desc1={info.desc1}
           desc2={info.desc2}
         />
+
+        <Work images={[Boat2, Boat3]} />
       </Layout>
     </>
   );

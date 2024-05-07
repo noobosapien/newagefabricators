@@ -11,28 +11,28 @@ export default function WhatWeDo() {
     {
       image: Marine,
       name: "Boat repairs and modifications",
-      link: "/services",
+      link: "/boat_repairs",
     },
     {
       image: General,
       name: "Custom truck decks / Tool boxes",
-      link: "/services",
+      link: "/truck",
     },
     {
       image: CNC,
       name: "Balustrades / Rails",
-      link: "/services",
+      link: "/balustrades_rails",
     },
 
     {
       image: Gates,
       name: "Custom gates and pregolas",
-      link: "/services",
+      link: "/gates_pregolas",
     },
     {
       image: Structural,
       name: "Structural house beams / portals",
-      link: "/services",
+      link: "/beams_portals",
     },
   ]);
 
@@ -44,7 +44,7 @@ export default function WhatWeDo() {
         <div className="h-full max-w-[1200px] flex flex-col space-y-32 md:space-y-48 items-center justify-around">
           <h2 className="text-4xl text-center font-bold">What We Do</h2>
 
-          <div className="flex flex-col flex-wrap md:flex-row items-center justify-center md:justify-around md:space-x-10 space-y-10 md:gap-10">
+          <div className="flex flex-col flex-wrap md:flex-row items-center justify-center md:justify-around md:space-x-10 md:gap-10">
             {industries.map((industry, i) => (
               <IndustryCard
                 key={`industry_${i}`}
