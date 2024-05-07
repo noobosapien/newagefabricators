@@ -4,6 +4,19 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="robots" content="all" />
+        <meta
+          property="og:title"
+          content="New Age Fabrication Ltd, Wellington"
+        />
+        <meta
+          property="og:description"
+          content="Pioneers in boat repairs, truck decks and toolbox fabrication, balustrades, rails and many more fabrication solutions, based in Wellington."
+        />
+        <meta
+          property="og:image"
+          content="https://newagefabrication.co.nz/marine.jpg"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link
           rel="preconnect"

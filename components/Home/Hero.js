@@ -1,14 +1,14 @@
 import React from "react";
 import BurningWelder from "./BurningWelder";
 import Welder from "./Welder";
-import NewAgeFabricators from "./NewAgeFabricators";
+import NewAgefabrication from "./NewAgefabrication";
 
 export default function Hero() {
   return (
     <>
       <div className="relative">
         <Welder />
-        {/* <NewAgeFabricators /> */}
+        {/* <NewAgefabrication /> */}
       </div>
     </>
   );

@@ -10,7 +10,7 @@ export default function Info() {
         <div className="h-full mt-48 md:mt-0 max-w-[1200px] flex flex-col space-y-10 md:flex-row items-center justify-around">
           <InfoImage />
           <div className="flex flex-col md:w-1/3 w-full space-y-10">
-            <h1 className="font-bold text-4xl">New Age Fabricators</h1>
+            <h1 className="font-bold text-4xl">New Age Fabrication</h1>
             <p className="text-xl text-center md:text-left p-4 md:p-0">
               With many successful projects under our belt, we usually deliver
               the highest quality results possible for our customers in the most

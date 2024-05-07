@@ -7,7 +7,7 @@ export default function Testimonials() {
       name: "leemar colina",
       stars: 5,
       review:
-        "We had the pleasure to work with Brian, Steve, and Dan for our laundry shop. They are very professional and honest. The price is unbeatable compared to other metal fabricators. One of the best customer service i experienced in the industry. The team is very knowledgeable and they always put safety and quality over anything else. You can never go wrong with New Age Fabrication! We are using them again in our next project (which is very soon!)",
+        "We had the pleasure to work with Brian, Steve, and Dan for our laundry shop. They are very professional and honest. The price is unbeatable compared to other metal fabrication. One of the best customer service i experienced in the industry. The team is very knowledgeable and they always put safety and quality over anything else. You can never go wrong with New Age Fabrication! We are using them again in our next project (which is very soon!)",
     },
     {
       name: "Lx McClelland",

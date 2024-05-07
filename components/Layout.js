@@ -21,7 +21,7 @@ export default function Layout({ active, children }) {
             <div className="flex items-center justify-between w-full max-w-[1200px]">
               <Link href="/">
                 <div className="relative md:h-24 md:w-64 h-12 w-32">
-                  <Image src={Logo} fill />
+                  <Image src={Logo} fill alt="logo" />
                 </div>
               </Link>
             </div>
@@ -169,7 +169,7 @@ export default function Layout({ active, children }) {
 
         <footer className="relative mt-24 w-screen py-48 bg-mainBlue footer">
           <div className="w-full h-full flex flex-col md:flex-row justify-evenly items-center space-y-10 md:space-y-0">
-            <p className="text-white text-2xl font-bold">New Age Fabricators</p>
+            <p className="text-white text-2xl font-bold">New Age Fabrication</p>
 
             <div className="flex flex-col justify-center items-center text-white space-y-10">
               <div className="flex gap-y-4 lg:gap-y-0 flex-col lg:flex-row flex-wrap justify-evenly space-x-10">
