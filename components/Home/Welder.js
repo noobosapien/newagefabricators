@@ -55,7 +55,7 @@ export default function Welder() {
                 className="text-white lg:text-2xl text-center"
                 style={{ textShadow: "2px 2px #000000" }}
               >
-                Wellington based fabrication
+                Wellington based fabricators
               </h2>
             </div>
           </div>
