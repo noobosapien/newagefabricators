@@ -6,7 +6,7 @@ export default function InfoImage() {
   return (
     <>
       <div className="relative border-mainBlue h-64 w-64 md:h-96 md:w-96 info-image">
-        <Image src={WelderImage} fill />
+        <Image src={WelderImage} fill alt="image of the information provided" />
       </div>
     </>
   );

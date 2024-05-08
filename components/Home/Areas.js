@@ -13,7 +13,7 @@ export default function Areas() {
 
           <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-around md:space-x-10 space-y-10 md:space-y-0 ">
             <div className="relative h-72 w-72 md:h-96 md:w-96">
-              <Image src={Area} fill />
+              <Image src={Area} fill alt="areas covered by us" />
             </div>
 
             <p className="md:w-1/3 md:text-left text-center text-xl">

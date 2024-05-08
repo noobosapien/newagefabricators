@@ -10,9 +10,9 @@ export default function Work({ images }) {
 
           <div className="flex flex-wrap gap-10 flex-col items-center space-y-10 lg:space-y-0 lg:flex-row justify-evenly max-w-[1200px] w-full">
             {images instanceof Array ? (
-              images.map((image) => (
+              images.map((image, i) => (
                 <div className="relative h-72 w-72 lg:h-72 lg:w-72 drop-shadow-md">
-                  <Image src={image} />
+                  <Image src={image} alt={`image ${i} of work done by us`} />
                 </div>
               ))
             ) : (

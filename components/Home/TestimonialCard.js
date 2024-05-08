@@ -8,7 +8,7 @@ export default function TestimonialCard({ name, stars, review }) {
     <>
       <div className="flex flex-col p-6 space-y-2 border-2 h-100 md:h-80 w-full">
         <div className="relative h-8 w-8">
-          <Image src={Google} fill />
+          <Image src={Google} fill alt="Google logo" />
         </div>
 
         <p className="font-bold underline">{name}</p>
@@ -16,7 +16,7 @@ export default function TestimonialCard({ name, stars, review }) {
         <div className="flex space-x-2">
           {Array.from(Array(stars), (e, i) => (
             <div key={`star__i${i}`} className="relative h-4 w-4">
-              <Image src={Star} fill />
+              <Image src={Star} fill alt={`star_${i}`} />
             </div>
           ))}
         </div>

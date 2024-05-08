@@ -13,7 +13,7 @@ export default function IndustryCard({ image, name, link }) {
         }}
       >
         <div className="relative w-72 h-72 border-4 border-mainBlue">
-          <Image src={image} fill />
+          <Image src={image} fill alt="our description" />
         </div>
 
         <p className="text-center text-l font-bold">{name}</p>

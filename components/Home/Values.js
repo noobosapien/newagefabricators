@@ -16,7 +16,7 @@ export default function Values() {
           <div className="flex flex-col space-y-10 md:space-y-0 md:flex-row items-center justify-center md:justify-around md:space-x-10 px-4">
             <div className="flex flex-col items-center space-y-5">
               <div className="relative w-24 h-24 md:w-40 md:h-40">
-                <Image src={Quality} fill />
+                <Image src={Quality} fill alt="Quality service by us" />
               </div>
 
               <h3 className="text-2xl font-bold text-center">
@@ -34,7 +34,7 @@ export default function Values() {
 
             <div className="flex flex-col items-center space-y-5">
               <div className="relative w-24 h-24 md:w-40 md:h-40">
-                <Image src={Expertise} fill />
+                <Image src={Expertise} fill alt="Unparalleled expertise" />
               </div>
 
               <h3 className="text-2xl font-bold text-center">
@@ -52,7 +52,7 @@ export default function Values() {
 
             <div className="flex flex-col items-center space-y-5">
               <div className="relative w-24 h-24 md:w-40 md:h-40">
-                <Image src={CostSave} fill />
+                <Image src={CostSave} fill alt="Cost effective solutions" />
               </div>
 
               <h3 className="text-2xl font-bold text-center">

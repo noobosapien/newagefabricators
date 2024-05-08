@@ -7,7 +7,7 @@ export default function ProfileCard() {
     <>
       <div className="flex flex-col space-y-4">
         <div className="relative h-72 w-72">
-          <Image src={Welder1} fill />
+          <Image src={Welder1} fill alt="profile picture" />
         </div>
 
         <p className="font-semibold text-xl text-center">John Doe</p>

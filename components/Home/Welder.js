@@ -36,7 +36,12 @@ export default function Welder() {
         <SwiperSlide>
           <div className="relative flex w-screen h-[40vh] md:h-[80vh] flex-col items-start justify-center">
             <div className="absolute w-screen h-[40vh] md:h-[80vh]">
-              <Image src={WeldImg} style={imageStyle} fill />
+              <Image
+                src={WeldImg}
+                style={imageStyle}
+                fill
+                alt="Image of a welder"
+              />
             </div>
 
             <div
@@ -64,7 +69,12 @@ export default function Welder() {
         <SwiperSlide>
           <div className="relative flex w-screen h-[40vh] md:h-[80vh] flex-col items-start justify-center">
             <div className="absolute w-screen h-[40vh] md:h-[80vh]">
-              <Image src={TruckImage} style={imageStyle} fill />
+              <Image
+                src={TruckImage}
+                style={imageStyle}
+                fill
+                alt="Hero image of a truck"
+              />
             </div>
 
             <div
@@ -92,7 +102,12 @@ export default function Welder() {
         <SwiperSlide>
           <div className="relative flex w-screen h-[40vh] md:h-[80vh] flex-col items-start justify-center">
             <div className="absolute w-screen h-[40vh] md:h-[80vh]">
-              <Image src={GateImage} style={imageStyle} fill />
+              <Image
+                src={GateImage}
+                style={imageStyle}
+                fill
+                alt="Hero image of a gate"
+              />
             </div>
 
             <div
