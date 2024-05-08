@@ -12,7 +12,7 @@ export default function Home() {
       <Layout
         title={"New Age Fabrication, Wellington based metal fabricators."}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "Wellington based New Age Fabrication specializes in fabrication of truck decks, and toolboxes to beams, and portals for houses."
         }
       >
         <Hero />

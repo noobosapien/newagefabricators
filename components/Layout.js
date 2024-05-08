@@ -196,7 +196,7 @@ export default function Layout({ active, title, description, children }) {
             <div className="flex flex-col items-center text-white font-semibold">
               <p>Quick contact</p>
               <p>Brian: 021 127 1496 </p>
-              <p>Email: newagefab@gmail.com</p>
+              <p>Email: admin@newagefabrication.com</p>
             </div>
           </div>
         </footer>

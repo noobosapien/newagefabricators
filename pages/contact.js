@@ -26,7 +26,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col text-lg">
-              <span>Email: newagefab@gmail.com</span>
+              <span>Email: admin@newagefabrication.co.nz</span>
               <br />
               <span>Phone (Brian): 021 127 1496 </span>
             </div>

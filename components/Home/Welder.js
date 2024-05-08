@@ -50,12 +50,12 @@ export default function Welder() {
                 background: "rgba(0, 0, 0, 0.4)",
               }}
             >
-              <h1
+              <h2
                 className="lg:text-4xl text-center font-semibold text-white drop-shadow-sm "
                 style={{ textShadow: "2px 2px #000000" }}
               >
                 New Age Fabrication
-              </h1>
+              </h2>
               <h2
                 className="text-white lg:text-2xl text-center"
                 style={{ textShadow: "2px 2px #000000" }}
