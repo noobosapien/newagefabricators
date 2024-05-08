@@ -25,7 +25,7 @@ export default function Layout({ active, title, description, children }) {
           <div className="flex items-center justify-center p-6 mx-auto w-screen">
             <div className="flex items-center justify-between w-full max-w-[1200px]">
               <Link href="/">
-                <div className="relative md:h-24 md:w-64 h-12 w-32">
+                <div className="relative md:h-[81px] md:w-[375px] h-[40px] w-[187px]">
                   <Image src={Logo} fill alt="logo" />
                 </div>
               </Link>
@@ -36,64 +36,63 @@ export default function Layout({ active, title, description, children }) {
             <div className="hidden md:flex items-center space-x-10 w-full max-w-[1200px]">
               <Link
                 href="/boat_repairs"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "boat_repairs" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Boat repairs</span>{" "}
+                Boat repairs
               </Link>
 
               <Link
                 href="/truck"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "truck" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Truck decks & toolboxes</span>
+                Truck decks & toolboxes
               </Link>
 
               <Link
                 href="/balustrades_rails"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "balustrades_rails" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Balustrades & Rails</span>
+                Balustrades & Rails
               </Link>
 
               <Link
                 href="/gates_pregolas"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "gates_pregolas" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Gates & Pregolas</span>
+                Gates & Pregolas
               </Link>
 
               <Link
                 href="/beams_portals"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "beams_portals" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">
-                  Structural house beams & portals
-                </span>
+                Structural house beams & portals
               </Link>
 
               <Link
                 href="/contact"
-                className={`text-center ${
+                className={`text-center hidden md:flex ${
                   active == "contact" ? "font-light" : ""
                 }`}
               >
-                <span className="hidden md:flex">Contact</span>
+                Contact
               </Link>
             </div>
 
             <div className="md:hidden flex w-screen justify-end pr-6 items-center">
               <button
                 onClick={openMenu}
+                aria-label="menu"
                 id="menu-btn"
                 type="button"
                 className={`block hamburger pr-6 md:hidden focus:outline-none ${
@@ -178,33 +177,19 @@ export default function Layout({ active, title, description, children }) {
 
             <div className="flex flex-col justify-center items-center text-white space-y-10">
               <div className="flex gap-y-4 lg:gap-y-0 items-center flex-col lg:flex-row flex-wrap justify-evenly lg:space-x-10">
-                <Link href="/">
-                  <span>Home</span>
-                </Link>
+                <Link href="/">Home</Link>
 
-                <Link href="/boat_repairs">
-                  <span>Boat Repairs</span>
-                </Link>
-                <Link href="/truck">
-                  <span>Truck decks & toolboxes</span>
-                </Link>
-                <Link href="/balustrades_rails">
-                  <span>Balustrades & Rails</span>
-                </Link>
+                <Link href="/boat_repairs">Boat Repairs</Link>
+                <Link href="/truck">Truck decks & toolboxes</Link>
+                <Link href="/balustrades_rails">Balustrades & Rails</Link>
               </div>
 
               <div className="flex flex-col items-center gap-y-4 lg:gap-y-0 lg:flex-row lg:justify-evenly lg:space-x-10">
-                <Link href="/gates_pregolas">
-                  <span>Custom gates & pregolas</span>
-                </Link>
+                <Link href="/gates_pregolas">Custom gates & pregolas</Link>
 
-                <Link href="/beams_portals">
-                  <span>House beams & portals</span>
-                </Link>
+                <Link href="/beams_portals">House beams & portals</Link>
 
-                <Link href="/contact">
-                  <span>Contact</span>
-                </Link>
+                <Link href="/contact">Contact</Link>
               </div>
             </div>
 
