@@ -62,12 +62,12 @@ export default function Layout({ active, title, description, children }) {
               </Link>
 
               <Link
-                href="/gates_pregolas"
+                href="/gates_pergolas"
                 className={`text-center hidden md:flex ${
-                  active == "gates_pregolas" ? "font-light" : ""
+                  active == "gates_pergolas" ? "font-light" : ""
                 }`}
               >
-                Gates & Pregolas
+                Gates & Pergolas
               </Link>
 
               <Link
@@ -140,12 +140,12 @@ export default function Layout({ active, title, description, children }) {
               </Link>
 
               <Link
-                href="/gates_pregolas"
+                href="/gates_pergolas"
                 className={`w-full text-center ${
-                  active == "gates_pregolas" ? "font-light" : ""
+                  active == "gates_pergolas" ? "font-light" : ""
                 }`}
               >
-                Custom Gates & Pregolas
+                Custom Gates & Pergolas
               </Link>
 
               <Link
@@ -185,7 +185,7 @@ export default function Layout({ active, title, description, children }) {
               </div>
 
               <div className="flex flex-col items-center gap-y-4 lg:gap-y-0 lg:flex-row lg:justify-evenly lg:space-x-10">
-                <Link href="/gates_pregolas">Custom gates & pregolas</Link>
+                <Link href="/gates_pergolas">Custom gates & pergolas</Link>
 
                 <Link href="/beams_portals">House beams & portals</Link>
 

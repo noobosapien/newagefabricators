@@ -45,7 +45,7 @@ export default function Values() {
 
               <p className="text-center text-xl">
                 With many decades of experience in fabrication we bring some of
-                the most advanced solutions to the table and provide with what
+                the most advanced solutions to the table and provide what
                 customers actually want.
               </p>
             </div>
@@ -62,7 +62,7 @@ export default function Values() {
               </h3>
 
               <p className="text-center text-xl">
-                With streamlined production processes, we will device a
+                With streamlined production processes, we will devise a
                 fabrication solution that meets both budgetary constraints and
                 quality standards.
               </p>

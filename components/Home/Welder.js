@@ -120,13 +120,13 @@ export default function Welder() {
                 className="lg:text-4xl text-center font-semibold text-white drop-shadow-sm "
                 style={{ textShadow: "2px 2px #000000" }}
               >
-                Gates and pregolas
+                Gates and pergolas
               </h2>
               <h2
                 className="text-white lg:text-2xl text-left lg:text-center"
                 style={{ textShadow: "2px 2px #000000" }}
               >
-                Custom built gates and pregolas to fit your own style
+                Custom built gates and pergolas to fit your own style
               </h2>
             </div>
           </div>

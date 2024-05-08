@@ -26,8 +26,8 @@ export default function WhatWeDo() {
 
     {
       image: Gates,
-      name: "Custom gates and pregolas",
-      link: "/gates_pregolas",
+      name: "Custom gates and pergolas",
+      link: "/gates_ergolas",
     },
     {
       image: Structural,

@@ -10,7 +10,7 @@ const info = {
   desc1:
     "We specialize in creating durable, functional, and stylish truck decks that are tailored to your specific needs and preferences.",
   desc2:
-    "Whether you're a contractor in need of a rugged work deck with storage compartments and toolboxes or an outdoor enthusiast looking for a sleek and versatile deck for recreational use, we got you covered.",
+    "Whether you're a contractor in need of a rugged work deck with storage compartments and toolboxes or an outdoor enthusiast looking for a sleek and versatile deck for recreational use, we've got you covered.",
 };
 
 export default function TruckDecks() {

@@ -12,14 +12,14 @@ export default function Info() {
           <div className="flex flex-col md:w-1/3 w-full space-y-10">
             <h1 className="font-bold text-4xl">New Age Fabrication</h1>
             <p className="text-xl text-center md:text-left p-4 md:p-0">
-              With many successful projects under our belt, we usually deliver
-              the highest quality results possible for our customers in the most
+              With many successful projects under our belt, we deliver the
+              highest quality results possible for our customers in the most
               timely manner possible, ranging from truck decks to custom gates
               and many more services.
             </p>
             <p className="italic text-center lg:text-left">
               We also make sure your trucks and gates look much better than your
-              neighbor's
+              neighbour's
             </p>
           </div>
         </div>

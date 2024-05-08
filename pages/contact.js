@@ -7,7 +7,7 @@ export default function Contact() {
       active="contact"
       title={"Contact New Age Fabrication"}
       description={
-        "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pergolas, beams, and portals for houses and boat repairs. "
       }
     >
       <div className="flex items-center justify-center w-full mt-40">

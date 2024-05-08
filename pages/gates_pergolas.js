@@ -8,21 +8,21 @@ import Pregola4 from "@/public/17.jpg";
 import Work from "@/components/Services/Work";
 
 const info = {
-  name: "Gates and pregolas fabrication",
+  name: "Gates and pergolas fabrication",
   desc1:
-    "A gate is the first impression of your home or business. We design and integrate gates and pregolas according to the property's architecture and landscape and according to your needs.",
+    "A gate is the first impression of your home or business. We design and integrate gates and pergolas according to the property's architecture, and the general appearance and according to your needs.",
   desc2:
-    "Gates and Pregolas can be customized with a variety of design elements, including ornamental accents, lattice panels, decorative hardware, and integrated lighting as needed.",
+    "Gates and Pergolas can be customized with a variety of design elements, including ornamental accents, lattice panels, decorative hardware, and integrated lighting as needed.",
 };
 
 export default function GatesPregolas() {
   return (
     <>
       <Layout
-        active="gates_pregolas"
+        active="gates_pergolas"
         title={"Gates and portals by New Age Fabrication"}
         description={
-          "Transform your outdoor space with our stunning designs that seamlessly blend form and function. From elegant entry gates to captivating pregolas, each creation is meticulously crafted to elevate your surroundings and enhance your lifestyle."
+          "Transform your outdoor space with our stunning designs that seamlessly blend form and function. From elegant entry gates to captivating pergolas, each creation is meticulously crafted to elevate your surroundings and enhance your lifestyle."
         }
       >
         <ServiceCard
