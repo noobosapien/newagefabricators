@@ -24,7 +24,7 @@ export default function BalustradesRails() {
         active="balustrades_rails"
         title={"Balustrades and rails by New Age Fabrication"}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "Transform your staircase, balcony, or terrace into a statement piece that seamlessly blends style and safety. With New Age Fabrications, elevate your surroundings to new heights."
         }
       >
         <ServiceCard

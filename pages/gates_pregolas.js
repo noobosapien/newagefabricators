@@ -22,7 +22,7 @@ export default function GatesPregolas() {
         active="gates_pregolas"
         title={"Gates and portals by New Age Fabrication"}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "Transform your outdoor space with our stunning designs that seamlessly blend form and function. From elegant entry gates to captivating pregolas, each creation is meticulously crafted to elevate your surroundings and enhance your lifestyle."
         }
       >
         <ServiceCard

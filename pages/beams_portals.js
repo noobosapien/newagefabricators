@@ -19,7 +19,7 @@ export default function BeamsPortals() {
         active="beams_portals"
         title={"House beams and portals by New Age Fabrication"}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "We specialize in crafting robust house beams and portals that form the backbone of your structure. Our innovative approach combines precision engineering with premium materials to ensure unparalleled strength and durability."
         }
       >
         <ServiceCard

@@ -21,7 +21,7 @@ export default function BoatRepairs() {
         active="boat_repairs"
         title={"Boat repairs by New Age Fabrication"}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "Set sail with confidence with New Age Fabrications, your premier destination for boat repairs. We specialize in restoring vessels to their full glory, combining years of experience with a passion for maritime excellence."
         }
       >
         <ServiceCard

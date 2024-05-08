@@ -20,7 +20,7 @@ export default function TruckDecks() {
         active="truck"
         title={"Truck decks and truck toolboxes by New Age Fabrication"}
         description={
-          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+          "Built to withstand the toughest challenges on the road, our truck decks are engineered with precision and crafted with durability in mind. From hauling heavy loads to conquering rugged terrains, our decks provide unmatched reliability and performance."
         }
       >
         <ServiceCard
