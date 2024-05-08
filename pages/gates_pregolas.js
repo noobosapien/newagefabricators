@@ -18,7 +18,13 @@ const info = {
 export default function GatesPregolas() {
   return (
     <>
-      <Layout active="gates_pregolas">
+      <Layout
+        active="gates_pregolas"
+        title={"Gates and portals by New Age Fabrication"}
+        description={
+          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        }
+      >
         <ServiceCard
           image={Pregola1}
           name={info.name}

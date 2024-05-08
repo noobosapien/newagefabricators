@@ -17,7 +17,13 @@ const info = {
 export default function BoatRepairs() {
   return (
     <>
-      <Layout active="boat_repairs">
+      <Layout
+        active="boat_repairs"
+        title={"Boat repairs by New Age Fabrication"}
+        description={
+          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        }
+      >
         <ServiceCard
           image={Boat}
           name={info.name}

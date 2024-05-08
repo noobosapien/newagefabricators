@@ -3,10 +3,16 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <Layout active="contact">
+    <Layout
+      active="contact"
+      title={"Contact New Age Fabrication"}
+      description={
+        "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+      }
+    >
       <div className="flex items-center justify-center w-full mt-40">
         <div className="flex flex-col lg:flex-row max-w-[1200px] w-full space-y-10 lg:space-y-0">
-          <div className="flex flex-col items-center lg:items-start w-full max-w-[1200px] gap-y-16">
+          <div className="flex flex-col p-6 lg:p-0 items-start w-full max-w-[1200px] gap-y-16">
             <h2 className="font-semibold text-2xl">Our Location</h2>
 
             <div className="flex flex-col text-lg">
@@ -20,7 +26,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col text-lg">
-              <span>Email: admin@newagefabrication.co.nz</span>
+              <span>Email: newagefab@gmail.com</span>
               <br />
               <span>Phone (Brian): 021 127 1496 </span>
             </div>

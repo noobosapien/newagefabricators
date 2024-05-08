@@ -2,11 +2,9 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Logo from "@/public/logo.png";
 import Image from "next/image";
-import FB from "@/public/facebook.svg";
-import WA from "@/public/whatsapp.svg";
-import IG from "@/public/instagram.svg";
+import Head from "next/head";
 
-export default function Layout({ active, children }) {
+export default function Layout({ active, title, description, children }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const openMenu = (e) => {
@@ -15,6 +13,13 @@ export default function Layout({ active, children }) {
 
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://newagefabrication.co.nz" />
+      </Head>
+
       <div className="scroll-smooth">
         <nav className="relative container flex flex-col justify-center">
           <div className="flex items-center justify-center p-6 mx-auto w-screen">
@@ -172,7 +177,7 @@ export default function Layout({ active, children }) {
             <p className="text-white text-2xl font-bold">New Age Fabrication</p>
 
             <div className="flex flex-col justify-center items-center text-white space-y-10">
-              <div className="flex gap-y-4 lg:gap-y-0 flex-col lg:flex-row flex-wrap justify-evenly space-x-10">
+              <div className="flex gap-y-4 lg:gap-y-0 items-center flex-col lg:flex-row flex-wrap justify-evenly lg:space-x-10">
                 <Link href="/">
                   <span>Home</span>
                 </Link>
@@ -188,7 +193,7 @@ export default function Layout({ active, children }) {
                 </Link>
               </div>
 
-              <div className="flex flex-col gap-y-4 lg:gap-y-0 lg:flex-row lg:justify-evenly space-x-10">
+              <div className="flex flex-col items-center gap-y-4 lg:gap-y-0 lg:flex-row lg:justify-evenly lg:space-x-10">
                 <Link href="/gates_pregolas">
                   <span>Custom gates & pregolas</span>
                 </Link>
@@ -205,8 +210,8 @@ export default function Layout({ active, children }) {
 
             <div className="flex flex-col items-center text-white font-semibold">
               <p>Quick contact</p>
-              <p>Phone: 0210000000</p>
-              <p>Email: admin@newagefabrication.co.nz</p>
+              <p>Brian: 021 127 1496 </p>
+              <p>Email: newagefab@gmail.com</p>
             </div>
           </div>
         </footer>

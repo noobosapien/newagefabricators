@@ -15,7 +15,13 @@ const info = {
 export default function BeamsPortals() {
   return (
     <>
-      <Layout active="beams_portals">
+      <Layout
+        active="beams_portals"
+        title={"House beams and portals by New Age Fabrication"}
+        description={
+          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        }
+      >
         <ServiceCard
           image={Beams1}
           name={info.name}

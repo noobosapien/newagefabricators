@@ -20,7 +20,13 @@ const info = {
 export default function BalustradesRails() {
   return (
     <>
-      <Layout active="balustrades_rails">
+      <Layout
+        active="balustrades_rails"
+        title={"Balustrades and rails by New Age Fabrication"}
+        description={
+          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        }
+      >
         <ServiceCard
           image={Rail1}
           name={info.name}

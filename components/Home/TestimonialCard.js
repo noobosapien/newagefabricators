@@ -15,7 +15,7 @@ export default function TestimonialCard({ name, stars, review }) {
 
         <div className="flex space-x-2">
           {Array.from(Array(stars), (e, i) => (
-            <div className="relative h-4 w-4">
+            <div key={`star__i${i}`} className="relative h-4 w-4">
               <Image src={Star} fill />
             </div>
           ))}

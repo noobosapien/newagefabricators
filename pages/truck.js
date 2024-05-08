@@ -16,7 +16,13 @@ const info = {
 export default function TruckDecks() {
   return (
     <>
-      <Layout active="truck">
+      <Layout
+        active="truck"
+        title={"Truck decks and truck toolboxes by New Age Fabrication"}
+        description={
+          "Wellington based New Age Fabrication specializes in fabrication of metal for truck decks, truck toolboxes, balustrades, stair rails, gates, pregolas, beams, and portals for houses and boat repairs. "
+        }
+      >
         <ServiceCard
           image={Truck1}
           name={info.name}
