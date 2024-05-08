@@ -22,9 +22,7 @@ export default function IndustryCard({ image, name, link }) {
           href={link}
           className="w-full text-center hover:cursor-pointer hover:bg-secondaryBlue bg-mainBlue rounded-xl p-3 text-white font-semibold"
         >
-          {/* <span className="w-full text-center hover:cursor-pointer hover:bg-secondaryBlue bg-mainBlue rounded-xl p-3 text-white font-semibold"> */}
-          More Info
-          {/* </span> */}
+          View Service
         </Link>
       </div>
     </>
